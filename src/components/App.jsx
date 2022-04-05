@@ -1,12 +1,13 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
+import Avatar from "./Avatar";
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
-
+      <Avatar src="https://avatars.githubusercontent.com/u/84477640?v=4" />
       <Card
         name={contacts[0].name}
         img={contacts[0].imgURL}
